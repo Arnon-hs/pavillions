@@ -1,0 +1,15 @@
+﻿<Page x:Class="Pavilions.pages.MenegerC"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Pavilions.pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="1200"
+      Title="MenegerC">
+
+    <Grid Background="White">
+        <Button Margin="475,10,516,621" Content="Торговые центры" Click="Button_Click" Background="#FFFF4C4C"></Button>
+        <Frame x:Name="menedgerCFrame" Margin="10,103,32,37"></Frame>
+    </Grid>
+</Page>
